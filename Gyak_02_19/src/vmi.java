@@ -5,19 +5,19 @@ public class vmi {
 		
 		int darab =50;
 		double pi=0;
-		double a=1;
+		double elojel=1;
 			
 			for (int i = 0; i < darab; i++) {
 				if(i % 2 == 0){
-					pi=pi+(1/a);
+					pi=pi+(1/elojel);
 					
 				}
 				else{
 					if(i % 2 == 0){
-						pi=pi-(1/a);
+						pi=pi-(1/elojel);
 				}
 			}
-		a=a+2;
+		elojel=elojel+2;
 		pi=pi*4;
 		System.out.println(pi);
 		
