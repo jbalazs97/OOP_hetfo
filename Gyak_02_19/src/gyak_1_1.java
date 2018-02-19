@@ -15,7 +15,8 @@ public class gyak_1_1 {
 		System.out.println("Wallis-Formula");
 		System.out.println("pi/2 erteke: " + pi);
 		System.out.println("pi :" +  pi*2);
-		System.out.println("Faktor: ");
+		System.out.println("A : " + szam + "faktorialisa:" +fakt);
+
 		// Leibniz-fele sor
 		darab *=4;
 		pi=0;
@@ -25,9 +26,14 @@ public class gyak_1_1 {
 				pi += elojel * 1.0;
 				elojel*= -1;
 		
-		
-		
+		int fakt=1;
+		int szam =5;
+			for (int j = 1; j < szam; j++) {
+				fakt=fakt*i;
+				
+			}
 	}
+			
 
 }
 }
