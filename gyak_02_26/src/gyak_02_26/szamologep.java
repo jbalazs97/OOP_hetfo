@@ -40,12 +40,22 @@ public class szamologep {
 			System.out.print("Eredmeny: "+eredmeny);
 			break;
 		
-		}
+		} 
 		
 						
 						
 		
-				 System.out.println(elso_operandus);
+		System.out.println("Kerem adja meg a kiszamitando: ");
+		System.out.println("kifejezes: ");
+		String operator=bemenet.nextLine();
+		String[] tomb = kifejezes.split(" ");
+		elso_operandus=Double.parseDouble(tomb[0]);
+		operator = tomb[1];
+		
+		System.out.println(tomb[0]);
+		System.out.println(tomb[1]);
+		System.out.println(tomb[2]);
+
 		bemenet.close();
 	}
 
