@@ -1,8 +1,12 @@
 package sajat.elso;
-import java.util.*;
-public class Szam {
+ class Szam {
 	private static double tures = 0.001;
 	private double valosSzam;
+	public Szam(double valosSzam) {
+		
+		this.valosSzam = valosSzam;
+		
+	}
 	
 	
 }
