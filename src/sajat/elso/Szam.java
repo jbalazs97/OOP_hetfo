@@ -8,5 +8,9 @@ package sajat.elso;
 		
 	}
 	
+	public boolean valoSzamTuresenBelulVanE(double valosSzam) {
+		return Math.abs(this.valosSzam-valosSzam) < tures;
+	}
+	
 	
 }
